@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capital Integral Investments — Memorando · Loma Las Parras</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ct:#428D88;--cd:#004E48;--cp:#143A39;--cm:#4B6867;--wh:#fff;--of:#f6f8f7;--pp:#edf2f1;--rl:#d4dedd;--bd:#1e2e2d;--mt:#426260;--hd:#0c1a19;--dn:#8b1a1a;--wn:#6b4200;--sf:'EB Garamond',Georgia,serif;--sn:'Lato',sans-serif;--mn:'Roboto Mono',monospace;--co:980px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:18px}
+body{font-family:var(--sn);background:var(--wh);color:var(--bd);line-height:1.68;-webkit-font-smoothing:antialiased}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;height:52px;background:var(--cp);border-bottom:2px solid var(--ct);display:flex;align-items:center;justify-content:space-between;padding:0 44px;transform:translateY(-100%);transition:transform .25s ease}
+nav.v{transform:translateY(0)}
+.nb{display:flex;align-items:center;gap:14px}
+.nl{height:32px;width:auto;background:#fff;padding:3px 8px}
+.ns{width:1px;height:20px;background:rgba(66,141,136,.5)}
+.nd{font-family:var(--mn);font-size:.57rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.68)}
+.na{display:flex;gap:22px;list-style:none}
+.na a{font-family:var(--mn);font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.55);text-decoration:none;transition:color .15s}
+.na a:hover{color:#7dd4cf}
+@media(max-width:720px){.na,.ns,.nd{display:none}nav{padding:0 20px}}
+
+.cover{background:var(--cp);min-height:100vh;display:grid;grid-template-rows:1fr auto;position:relative;overflow:hidden}
+.cover::after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 55% 45% at 85% 12%,rgba(66,141,136,.12) 0%,transparent 55%),radial-gradient(ellipse 38% 58% at 4% 90%,rgba(0,78,72,.25) 0%,transparent 48%)}
+.cover::before{content:'';position:absolute;inset:0;pointer-events:none;background-image:repeating-linear-gradient(0deg,transparent,transparent 55px,rgba(66,141,136,.04) 55px,rgba(66,141,136,.04) 56px)}
+.ci{position:relative;z-index:2;max-width:var(--co);margin:0 auto;width:100%;padding:60px 60px 44px;display:flex;flex-direction:column;justify-content:center}
+.ctb{display:flex;align-items:center;justify-content:space-between;margin-bottom:52px;padding-bottom:22px;border-bottom:1px solid rgba(66,141,136,.28)}
+.clb{background:#fff;padding:18px 32px;display:inline-flex;align-items:center}
+.clb img{height:88px;width:auto;display:block}
+.crf{font-family:var(--mn);font-size:.57rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.62);text-align:right;line-height:2.1}
+.cov{font-family:var(--mn);font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:#7dd4cf;margin-bottom:20px;display:flex;align-items:center;gap:14px}
+.cov::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(66,141,136,.5),transparent)}
+.ctt{font-family:var(--sf);font-size:clamp(2.2rem,4.5vw,3.8rem);font-weight:400;line-height:1.1;color:#fff;margin-bottom:10px}
+.ctt strong{font-weight:600}
+.csb{font-family:var(--sf);font-style:italic;font-size:clamp(1rem,1.6vw,1.22rem);color:rgba(255,255,255,.65);margin-bottom:44px}
+.cgr{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(66,141,136,.22);margin-bottom:34px}
+@media(max-width:720px){.cgr{grid-template-columns:repeat(2,1fr)}}
+.cg{padding:20px 18px;border-right:1px solid rgba(66,141,136,.16);border-bottom:1px solid rgba(66,141,136,.16)}
+.cg:nth-child(4n){border-right:none}
+.cgl{font-family:var(--mn);font-size:.54rem;letter-spacing:.17em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:6px}
+.cgv{font-family:var(--sf);font-size:1.42rem;font-weight:500;color:#fff;line-height:1.15}
+.cgv.ac{color:#7dd4cf}.cgv.wa{color:#f0c060}.cgv.rd{color:#f08080}
+.cgn{font-size:.7rem;color:rgba(255,255,255,.52);margin-top:4px}
+.cvr{display:flex;align-items:stretch;border:1px solid rgba(240,128,128,.4);overflow:hidden;width:fit-content}
+.cvb{width:4px;background:#f08080;flex-shrink:0}
+.cvi{padding:16px 22px;display:flex;flex-direction:column;gap:4px}
+.cvl{font-family:var(--mn);font-size:.52rem;letter-spacing:.17em;text-transform:uppercase;color:rgba(255,255,255,.56)}
+.cvv{font-family:var(--sf);font-size:1.15rem;font-weight:500;color:#f08080}
+.cvs{font-size:.76rem;color:rgba(255,255,255,.52)}
+.cf{position:relative;z-index:2;max-width:var(--co);margin:0 auto;width:100%;padding:14px 60px;border-top:1px solid rgba(66,141,136,.14);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.cfc{font-family:var(--mn);font-size:.52rem;letter-spacing:.17em;text-transform:uppercase;color:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.2);padding:5px 12px}
+.cfs{font-family:var(--mn);font-size:.52rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.38)}
+@media(max-width:720px){.ci{padding:44px 20px 28px}.cf{padding:12px 20px}}
+
+.pgd{display:grid;grid-template-columns:3fr 2fr;height:420px;gap:2px;background:var(--cp)}
+@media(max-width:720px){.pgd{grid-template-columns:1fr;height:auto}}
+.pc{position:relative;overflow:hidden}
+.pc img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.75) brightness(.8);transition:filter .35s}
+.pc:hover img{filter:saturate(.88) brightness(.88)}
+.pcp{position:absolute;bottom:0;left:0;right:0;padding:32px 20px 16px;background:linear-gradient(transparent,rgba(20,58,57,.88));display:flex;flex-direction:column;gap:4px}
+.pcn{font-family:var(--mn);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:#7dd4cf}
+.pcd{font-size:.8rem;color:rgba(255,255,255,.84)}
+.pm{background:var(--cp);border-top:1px solid rgba(66,141,136,.2);padding:11px 44px;display:flex;gap:28px;flex-wrap:wrap}
+.pmi{display:flex;align-items:center;gap:8px;font-family:var(--mn);font-size:.56rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.pmd{width:4px;height:4px;border-radius:50%;background:var(--ct);flex-shrink:0}
+
+.page{max-width:var(--co);margin:0 auto;padding:0 44px}
+@media(max-width:720px){.page{padding:0 20px}}
+.sec{padding:64px 0;border-bottom:1px solid var(--rl)}
+.sec:last-child{border-bottom:none}
+.sh{display:flex;align-items:baseline;justify-content:space-between;padding-bottom:13px;border-bottom:2px solid var(--cd);margin-bottom:30px;gap:16px;flex-wrap:wrap}
+.shl{display:flex;align-items:baseline;gap:14px}
+.sn{font-family:var(--mn);font-size:.62rem;letter-spacing:.2em;color:var(--ct);flex-shrink:0}
+.st{font-family:var(--sf);font-size:1.38rem;font-weight:500;color:var(--cd)}
+.bg{font-family:var(--mn);font-size:.54rem;letter-spacing:.13em;text-transform:uppercase;padding:4px 9px;border:1px solid var(--rl);color:var(--mt);flex-shrink:0}
+.bg.wa{border-color:rgba(107,66,0,.38);color:var(--wn);background:rgba(107,66,0,.05)}
+.bg.ok{border-color:rgba(0,78,72,.38);color:var(--cd);background:rgba(0,78,72,.05)}
+.bg.rd{border-color:rgba(139,26,26,.38);color:var(--dn);background:rgba(139,26,26,.05)}
+
+.kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));border:1px solid var(--rl);margin-bottom:24px}
+.kc{padding:18px 16px;border-right:1px solid var(--rl);display:flex;flex-direction:column;gap:5px}
+.kc:last-child{border-right:none}
+.kcl{font-family:var(--mn);font-size:.54rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mt)}
+.kcv{font-family:var(--sf);font-size:1.45rem;font-weight:500;color:var(--hd);line-height:1.1}
+.kcv.ok{color:var(--cd)}.kcv.fl{color:#7a4a00}.kcv.rd{color:var(--dn)}
+.kcn{font-size:.7rem;color:var(--mt)}
+
+.tb{width:100%;border-collapse:collapse;font-size:.9rem;margin-bottom:24px}
+.tb thead tr{background:var(--cp)}
+.tb thead th{padding:11px 14px;text-align:left;font-family:var(--mn);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.92);font-weight:500}
+.tb tbody tr{border-bottom:1px solid var(--rl)}
+.tb tbody tr:last-child{border-bottom:none}
+.tb tbody td{padding:11px 14px;color:var(--bd)}
+.tb td.k{font-family:var(--mn);font-size:.76rem;letter-spacing:.04em;color:var(--mt)}
+.tb tfoot tr{border-top:2px solid var(--cd);background:var(--of)}
+.tb tfoot td{padding:11px 14px;font-weight:700;font-size:.9rem;color:var(--bd)}
+.tb tfoot td.k{font-family:var(--mn);font-size:.76rem;color:var(--bd)}
+.tb tbody tr:hover{background:var(--pp)}
+
+.pl{display:inline-block;font-family:var(--mn);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border:1px solid}
+.pok{color:#003830;border-color:rgba(0,78,72,.38);background:rgba(0,78,72,.07)}
+.pwa{color:#5a3800;border-color:rgba(90,56,0,.36);background:rgba(90,56,0,.06)}
+.pno{color:#6e1010;border-color:rgba(110,16,16,.36);background:rgba(110,16,16,.06)}
+
+.scr{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:24px}
+@media(max-width:720px){.scr{grid-template-columns:1fr}}
+.sc{border:1px solid var(--rl);padding:20px 16px;position:relative;display:flex;flex-direction:column;gap:7px}
+.sc.ac{border-color:var(--ct)}
+.sc.ac::before{content:'ESCENARIO REAL';position:absolute;top:-1px;left:14px;font-family:var(--mn);font-size:.5rem;letter-spacing:.16em;background:var(--ct);color:#fff;padding:2px 9px}
+.sc.dm{opacity:.4}
+.sct{font-family:var(--mn);font-size:.54rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mt)}
+.sci{font-family:var(--sf);font-size:2.1rem;font-weight:500;color:var(--hd);line-height:1}
+.sca{font-size:.85rem;color:var(--mt)}
+.scn{font-size:.76rem;color:var(--mt);border-top:1px solid var(--rl);padding-top:8px;line-height:1.55}
+
+.bc{border:1px solid var(--rl);padding:20px;background:var(--of);margin-bottom:24px}
+.bct{font-family:var(--mn);font-size:.54rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mt);margin-bottom:16px}
+.br{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.br:last-child{margin-bottom:0}
+.bl{font-size:.78rem;color:var(--mt);width:170px;flex-shrink:0}
+.br.hl .bl{color:var(--cd);font-weight:700}
+.bt{flex:1;height:4px;background:var(--rl);overflow:hidden}
+.bf{height:100%;width:0;background:var(--ct);transition:width 1.2s cubic-bezier(.22,1,.36,1)}
+.bf.hi{background:var(--cd)}
+.bv{font-family:var(--mn);font-size:.72rem;color:var(--hd);width:74px;text-align:right;flex-shrink:0}
+
+.wf{border:1px solid var(--rl);margin-bottom:24px}
+.wr{display:grid;grid-template-columns:2.5fr 1.2fr .8fr;padding:10px 16px;border-bottom:1px solid var(--rl);align-items:center}
+.wr:last-child{border-bottom:none}
+.wr.hd{background:var(--cp);pointer-events:none}
+.wr.hd span{font-family:var(--mn);font-size:.55rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.92)}
+.wr.tt{background:var(--cp);border-top:2px solid var(--ct)}
+.wr.tt .wl,.wr.tt .wp{color:rgba(255,255,255,.84)}
+.wr.tt .wa{color:#7dd4cf;font-size:.92rem;font-weight:700}
+.wr.hr{background:rgba(139,26,26,.04)}
+.wr.hr .wl{color:var(--dn);font-weight:600}
+.wr.hr .wa{color:var(--dn)}
+.wr:not(.hd):not(.tt):hover{background:var(--pp)}
+.wl{font-size:.86rem;color:var(--bd)}
+.wa{font-family:var(--mn);font-size:.82rem;text-align:right;color:var(--bd)}
+.wp{font-family:var(--mn);font-size:.73rem;text-align:right;color:var(--mt)}
+.wl.ww{color:var(--wn)}.wa.ng{color:var(--dn)}.wa.ps{color:var(--cd)}.wa.ww{color:var(--wn)}
+
+.nt{border-left:3px solid var(--ct);background:var(--of);padding:15px 18px;font-size:.86rem;color:var(--bd);line-height:1.68;margin-bottom:22px}
+.nt strong{color:var(--hd)}
+.nt.rd{border-left-color:var(--dn);background:#fff5f5}
+.nt.rd strong{color:var(--dn)}
+
+.al{display:flex;flex-direction:column;gap:8px;margin-bottom:24px}
+.ai{display:flex;gap:14px;align-items:flex-start;padding:13px 16px;border-left:3px solid;background:var(--of)}
+.ai.d{border-left-color:var(--dn)}.ai.w{border-left-color:#8a5200}.ai.i{border-left-color:var(--cd)}
+.at{font-weight:700;font-size:.86rem;margin-bottom:4px}
+.ai.d .at{color:var(--dn)}.ai.w .at{color:#6b4200}.ai.i .at{color:var(--cd)}
+.ad{font-size:.8rem;color:var(--mt);line-height:1.58}
+
+.mc{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:11px;margin-bottom:24px}
+.mk{border:1px solid var(--rl);padding:18px 16px;display:flex;flex-direction:column;gap:5px}
+.mk.hi{border-color:var(--ct);background:rgba(66,141,136,.05)}
+.mp{font-weight:700;font-size:.88rem;color:var(--hd)}.mk.hi .mp{color:var(--cd)}
+.mz{font-family:var(--mn);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mt)}
+.mr{font-family:var(--sf);font-size:1.25rem;font-weight:500;color:var(--hd);margin-top:6px}
+.ms{font-size:.76rem;color:var(--mt)}.mu{font-family:var(--mn);font-size:.64rem;color:var(--cd)}
+
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:11px;margin-bottom:24px}
+.pk{border:1px solid var(--rl);padding:20px 16px;display:flex;flex-direction:column;gap:7px}
+.pt{font-family:var(--mn);font-size:.54rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mt)}
+.pv{font-family:var(--sf);font-size:1.85rem;font-weight:500;color:var(--hd)}
+.pd{font-size:.8rem;color:var(--mt);line-height:1.58}
+.pp{font-family:var(--mn);font-size:.7rem;color:var(--cd);border-top:1px solid var(--rl);padding-top:7px;margin-top:3px}
+
+.rg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:26px}
+@media(max-width:720px){.rg{grid-template-columns:1fr}}
+.rk{border:1px solid var(--rl);padding:20px 18px}
+.rt{font-family:var(--mn);font-size:.54rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cd);margin-bottom:14px;padding-bottom:9px;border-bottom:1px solid var(--rl)}
+.rl{list-style:none;display:flex;flex-direction:column;gap:8px}
+.rl li{display:flex;gap:10px;font-size:.86rem;color:var(--bd);line-height:1.5}
+.rl li::before{content:'—';color:var(--cm);flex-shrink:0}
+
+.vrd{background:var(--cp);padding:80px 60px}
+@media(max-width:720px){.vrd{padding:52px 20px}}
+.vi{max-width:var(--co);margin:0 auto}
+.vlr{display:flex;align-items:center;justify-content:space-between;margin-bottom:44px;padding-bottom:24px;border-bottom:1px solid rgba(66,141,136,.25)}
+.vlb{background:#fff;padding:14px 26px;display:inline-flex;align-items:center}
+.vlb img{height:70px;width:auto;display:block}
+.vdt{font-family:var(--mn);font-size:.56rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.6);text-align:right;line-height:2.1}
+.vo{font-family:var(--mn);font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.54);margin-bottom:14px;display:flex;align-items:center;gap:12px}
+.vo::after{content:'';flex:1;height:1px;background:rgba(66,141,136,.25)}
+.va{font-family:var(--sf);font-size:clamp(1.4rem,2.8vw,2.3rem);font-weight:400;color:rgba(255,255,255,.82);margin-bottom:5px}
+.vv{font-family:var(--sf);font-size:clamp(2rem,4.2vw,3.6rem);font-weight:600;color:#f08080;line-height:1.05;margin-bottom:26px}
+.vb{font-size:.9rem;color:rgba(255,255,255,.72);max-width:640px;line-height:1.78;margin-bottom:34px}
+.vm{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(66,141,136,.15);border:1px solid rgba(66,141,136,.2);margin-bottom:34px}
+@media(max-width:720px){.vm{grid-template-columns:repeat(2,1fr)}}
+.vc{background:rgba(20,58,57,.6);padding:16px 15px;display:flex;flex-direction:column;gap:5px}
+.vcl{font-family:var(--mn);font-size:.52rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.54)}
+.vcv{font-family:var(--sf);font-size:1.1rem;font-weight:500}
+.vcs{font-size:.68rem;color:rgba(255,255,255,.5)}
+.vc.gr .vcv{color:#7dd4cf}.vc.am .vcv{color:#f0c060}.vc.rd .vcv{color:#f08080}
+.vco{border:1px solid rgba(66,141,136,.25);padding:20px 22px;max-width:660px}
+.vct{font-family:var(--mn);font-size:.54rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.54);margin-bottom:16px;padding-bottom:11px;border-bottom:1px solid rgba(66,141,136,.2)}
+.vcl2{list-style:none;display:flex;flex-direction:column;gap:10px}
+.vcl2 li{display:flex;gap:13px;font-size:.86rem;color:rgba(255,255,255,.76);line-height:1.55}
+.vcl2 li::before{content:attr(data-n);font-family:var(--mn);font-size:.62rem;color:#7dd4cf;flex-shrink:0;padding-top:1px}
+
+.ct{background:var(--cp);border-top:3px solid var(--ct);padding:56px 44px}
+.ctn{max-width:var(--co);margin:0 auto;display:flex;align-items:flex-start;gap:52px;flex-wrap:wrap}
+.ctl{flex-shrink:0;min-width:220px}
+.co2{font-family:var(--mn);font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--ct);margin-bottom:10px}
+.cn2{font-family:var(--sf);font-size:1.75rem;font-weight:500;color:#fff;line-height:1.2;margin-bottom:6px}
+.cr2{font-family:var(--mn);font-size:.58rem;letter-spacing:.1em;color:rgba(255,255,255,.52)}
+.cdv{width:1px;min-height:110px;background:rgba(66,141,136,.3);flex-shrink:0;align-self:stretch}
+@media(max-width:720px){.cdv{display:none}}
+.ctg{flex:1;display:grid;grid-template-columns:repeat(2,1fr)}
+@media(max-width:600px){.ctg{grid-template-columns:1fr}}
+.ci2{display:flex;align-items:flex-start;gap:14px;padding:20px 22px;border-right:1px solid rgba(66,141,136,.18);border-bottom:1px solid rgba(66,141,136,.18);text-decoration:none;transition:background .2s;color:inherit}
+.ci2:hover{background:rgba(66,141,136,.08)}
+.ci2.nl{cursor:default}.ci2.nl:hover{background:transparent}
+.ci2:nth-child(even){border-right:none}
+.ci2:nth-last-child(-n+2){border-bottom:none}
+.cic{width:38px;height:38px;border:1px solid rgba(66,141,136,.4);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--ct);margin-top:2px}
+.cic.wa{color:#25D366;border-color:rgba(37,211,102,.4)}
+.ci2.ciw:hover{background:rgba(37,211,102,.06)}
+.clbl{font-family:var(--mn);font-size:.54rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.44);margin-bottom:5px}
+.cval{font-size:.92rem;font-weight:500;color:rgba(255,255,255,.9);line-height:1.55}
+.ci2.ciw .cval{color:#25D366}
+@media(max-width:720px){.ct{padding:40px 20px}.ctn{gap:28px}}
+
+footer{background:var(--of);border-top:2px solid var(--cd);padding:26px 44px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
+.fl{background:var(--cp);padding:12px 24px;display:inline-flex;align-items:center}
+.fl img{height:50px;width:auto;display:block}
+.fn{font-family:var(--mn);font-size:.56rem;letter-spacing:.08em;color:var(--mt);text-align:right;line-height:2}
+@media(max-width:720px){footer{padding:20px}.fn{text-align:left}}
+
+.rv{opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}
+.rv.in{opacity:1;transform:none}
+@media print{nav{display:none}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nb">
+    <img class="nl" src="logo.jpg" alt="Capital Integral Investments">
+    <div class="ns"></div>
+    <span class="nd">Memorando de Inversión · Las Parras · 2026</span>
+  </div>
+  <ul class="na">
+    <li><a href="#fotos">Activo</a></li><li><a href="#norma">Norma</a></li>
+    <li><a href="#indices">Índices</a></li><li><a href="#financiero">Financiero</a></li>
+    <li><a href="#mercado">Mercado</a></li><li><a href="#programa">Programa</a></li>
+    <li><a href="#veredicto">Veredicto</a></li>
+  </ul>
+</nav>
+
+<div class="cover">
+  <div class="ci">
+    <div class="ctb">
+      <div class="clb"><img src="logo.jpg" alt="Capital Integral Investments"></div>
+      <div class="crf">Ref. CI-2026-LP-001 · Confidencial<br>Uso exclusivo interno · Comité de Inversión<br>Medellín, 19 de marzo de 2026</div>
+    </div>
+    <div class="cov">Memorando de Prefactibilidad — Análisis POT Acuerdo 48 / 2014</div>
+    <h1 class="ctt">Análisis de Inversión<br><strong>Lote Loma Las Parras</strong></h1>
+    <p class="csb">Barrio Alejandría · El Poblado · Medellín — CBML 14160110126 · Suelo urbano · Estrato 6</p>
+    <div class="cgr">
+      <div class="cg"><div class="cgl">Área del lote</div><div class="cgv">2.190 m²</div><div class="cgn">Suelo urbano clasificado</div></div>
+      <div class="cg"><div class="cgl">Valor del lote</div><div class="cgv rd">$11.000M</div><div class="cgn">COP · Dato real de mercado</div></div>
+      <div class="cg"><div class="cgl">Precio/m² ventas</div><div class="cgv ac">$15.000K</div><div class="cgn">Promedio sector · aptos nuevos</div></div>
+      <div class="cg"><div class="cgl">Área edificable</div><div class="cgv">3.066 m²</div><div class="cgn">IC 1.4 · 26 unidades máx.</div></div>
+      <div class="cg"><div class="cgl">Ingresos est.</div><div class="cgv ac">$36.000M</div><div class="cgn">COP · ciclo 36 meses</div></div>
+      <div class="cg"><div class="cgl">Costo total est.</div><div class="cgv rd">$28.061M</div><div class="cgn">Lote + constr. + indirectos</div></div>
+      <div class="cg"><div class="cgl">Margen bruto</div><div class="cgv wa">22.1%</div><div class="cgn">$7.939M · Ajustado por lote</div></div>
+      <div class="cg"><div class="cgl">TIR estimada</div><div class="cgv wa">~14%</div><div class="cgn">Anual efectiva · Baja para CI</div></div>
+    </div>
+    <div class="cvr">
+      <div class="cvb"></div>
+      <div class="cvi">
+        <span class="cvl">Clasificación de comité · Capital Integral Investments</span>
+        <span class="cvv">🔴 No viable en condiciones actuales</span>
+        <span class="cvs">Lote $11.000M comprime el margen. TIR ~14% no justifica el riesgo de desarrollo.</span>
+      </div>
+    </div>
+  </div>
+  <div class="cf">
+    <span class="cfc">Confidencial · Solo distribución interna</span>
+    <span class="cfs">Desplazar para análisis completo ↓</span>
+  </div>
+</div>
+
+<div id="fotos">
+  <div class="pgd">
+    <div class="pc"><img src="foto1.jpg" alt="Entorno Loma Las Parras"><div class="pcp"><span class="pcn">Fotografía 01 · Entorno inmediato</span><span class="pcd">Loma Las Parras · Vía arteria colindante con proyecto vial activo 12-1990-002</span></div></div>
+    <div class="pc"><img src="foto2.jpg" alt="Contexto urbano Alejandría"><div class="pcp"><span class="pcn">Fotografía 02 · Contexto urbano</span><span class="pcd">Edificios residenciales vecinos · Zona consolidada estrato 6 · Alejandría</span></div></div>
+  </div>
+  <div class="pm">
+    <span class="pmi"><span class="pmd"></span>Alejandría · El Poblado · Medellín</span>
+    <span class="pmi"><span class="pmd"></span>Zona residencial consolidada estrato 6</span>
+    <span class="pmi"><span class="pmd"></span>Vía arteria con ampliación activa</span>
+    <span class="pmi"><span class="pmd"></span>Registro fotográfico · Marzo 2026</span>
+  </div>
+</div>
+
+<div class="page">
+
+<div class="sec rv" id="norma">
+  <div class="sh"><div class="shl"><span class="sn">01</span><span class="st">Norma Urbanística — POT Acuerdo 48 de 2014</span></div><span class="bg wa">Polígono Z5_CN5_18 · CN5</span></div>
+  <div class="kp">
+    <div class="kc"><div class="kcl">Tratamiento</div><div class="kcv" style="font-size:1rem">Consol. N5</div><div class="kcn">Z5_CN5_18</div></div>
+    <div class="kc"><div class="kcl">Área lote</div><div class="kcv">2.190 m²</div><div class="kcn">Suelo urbano</div></div>
+    <div class="kc"><div class="kcl">IC máximo</div><div class="kcv fl">1.4</div><div class="kcn">Sin derechos</div></div>
+    <div class="kc"><div class="kcl">IC + derechos</div><div class="kcv rd">+0.00</div><div class="kcn">No aplica CN5</div></div>
+    <div class="kc"><div class="kcl">Densidad máx.</div><div class="kcv fl">120 viv/ha</div><div class="kcn">≈ 26 unidades</div></div>
+    <div class="kc"><div class="kcl">Amenaza masa</div><div class="kcv ok">Baja</div><div class="kcn">100% del predio</div></div>
+  </div>
+  <div class="nt"><strong>Restricción determinante:</strong> Z5_CN5_18 establece densidad adicional por venta de derechos = 0.00. No existe mecanismo para incrementar el IC más allá de 1.4. El proyecto queda fijo en 3.066 m² brutos y 26 unidades máximas.</div>
+  <table class="tb"><thead><tr><th>Parámetro</th><th>Valor POT</th><th>Implicación</th><th>Estado</th></tr></thead><tbody>
+    <tr><td class="k">IC base</td><td>1.4</td><td>Área bruta máxima: 3.066 m²</td><td><span class="pl pwa">Limitado</span></td></tr>
+    <tr><td class="k">Venta de derechos</td><td>0.00</td><td>Sin posibilidad de incrementar IC</td><td><span class="pl pno">No disponible</span></td></tr>
+    <tr><td class="k">Densidad habitacional</td><td>120 viv/ha</td><td>Máximo 26 unidades sobre 2.190 m²</td><td><span class="pl pwa">Condicional</span></td></tr>
+    <tr><td class="k">Mezcla de usos</td><td>Baja mixtura</td><td>100% área predominantemente residencial</td><td><span class="pl pwa">Restrictivo</span></td></tr>
+    <tr><td class="k">Instrumento Suroriental</td><td>Aplica</td><td>Consultar formulación — normas adicionales posibles</td><td><span class="pl pwa">Verificar</span></td></tr>
+    <tr><td class="k">Proyecto vial 12-1990-002</td><td>Activo</td><td>Área afectada no cuantificada</td><td><span class="pl pno">Crítico</span></td></tr>
+    <tr><td class="k">Amenaza movimientos en masa</td><td>Baja 100%</td><td>Sin restricciones de riesgo adicionales</td><td><span class="pl pok">Favorable</span></td></tr>
+    <tr><td class="k">Estrato</td><td>6</td><td>Norma de parqueaderos exigente</td><td><span class="pl pwa">Impacto costo</span></td></tr>
+  </tbody></table>
+  <table class="tb"><thead><tr><th>Uso</th><th>Categoría</th><th>Condición</th><th>Viabilidad</th></tr></thead><tbody>
+    <tr><td class="k">Vivienda plurifamiliar</td><td>Principal</td><td>Uso predominante autorizado</td><td><span class="pl pok">Viable</span></td></tr>
+    <tr><td class="k">Vivienda unifamiliar</td><td>Principal</td><td>Compatible con densidad CN5</td><td><span class="pl pok">Viable</span></td></tr>
+    <tr><td class="k">Comercio vecinal</td><td>Complementario</td><td>Baja mixtura — uso muy limitado</td><td><span class="pl pwa">Restringido</span></td></tr>
+    <tr><td class="k">Oficinas / coworking</td><td>Complementario</td><td>Requiere concepto DAP previo</td><td><span class="pl pwa">Restringido</span></td></tr>
+    <tr><td class="k">Comercio zonal / retail</td><td>No compatible</td><td>No corresponde a área baja mixtura</td><td><span class="pl pno">No viable</span></td></tr>
+  </tbody></table>
+</div>
+
+<div class="sec rv" id="indices">
+  <div class="sh"><div class="shl"><span class="sn">02</span><span class="st">Índices de Construcción — Único Escenario Posible</span></div><span class="bg wa">IC 1.4 · Sin derechos adicionales</span></div>
+  <div class="scr">
+    <div class="sc dm"><div class="sct">IC alto — no aplica</div><div class="sci" style="color:var(--mt)">IC 5.5</div><div class="sca">No disponible en CN5</div><div class="scn">Renovación Urbana en El Poblado permite IC 5–7.5. Polígono CN5 no es comparable.</div></div>
+    <div class="sc ac"><div class="sct">Norma vigente</div><div class="sci">IC 1.4</div><div class="sca">3.066 m² edificables</div><div class="scn">Único escenario. 120 viv/ha × 2.190 m² = 26 unidades máximas. Sin engorde normativo posible.</div></div>
+    <div class="sc dm"><div class="sct">Derechos adicionales</div><div class="sci" style="color:var(--mt)">+0.00</div><div class="sca">No disponible</div><div class="scn">POT Acuerdo 48/2014 confirma densidad adicional = 0.00 para Z5_CN5_18.</div></div>
+  </div>
+  <div class="bc rv">
+    <div class="bct">Comparativo IC — Tratamientos urbanísticos Medellín (referencia de mercado)</div>
+    <div class="br hl"><span class="bl">Z5_CN5_18 — este lote</span><div class="bt"><div class="bf" data-w="18.7"></div></div><span class="bv">IC 1.4</span></div>
+    <div class="br"><span class="bl">Consolidación N4</span><div class="bt"><div class="bf" data-w="26.7"></div></div><span class="bv">IC 2.0</span></div>
+    <div class="br"><span class="bl">Consolidación N3</span><div class="bt"><div class="bf" data-w="40"></div></div><span class="bv">IC 3.0</span></div>
+    <div class="br"><span class="bl">Desarrollo</span><div class="bt"><div class="bf hi" data-w="66.7"></div></div><span class="bv">IC 5.0</span></div>
+    <div class="br"><span class="bl">Renovación Urbana</span><div class="bt"><div class="bf hi" data-w="73.3"></div></div><span class="bv">IC 5.5</span></div>
+  </div>
+  <table class="tb"><thead><tr><th>Componente</th><th>m² brutos</th><th>m² útiles</th><th>%</th><th>Precio/m²</th><th>Ingreso est.</th></tr></thead>
+  <tbody>
+    <tr><td class="k">Vivienda No VIS</td><td>2.600 m²</td><td>2.340 m²</td><td>84.8%</td><td>$15.000.000</td><td style="color:var(--cd);font-weight:600">$35.100M</td></tr>
+    <tr><td class="k">Zonas comunes</td><td>380 m²</td><td>—</td><td>12.4%</td><td>—</td><td>—</td></tr>
+    <tr><td class="k">Comercio vecinal (cond.)</td><td>86 m²</td><td>75 m²</td><td>2.8%</td><td>$12.000.000</td><td>$900M</td></tr>
+  </tbody>
+  <tfoot><tr><td class="k">Total edificable</td><td>3.066 m²</td><td>2.415 m²</td><td>100%</td><td>Prom. $14.900K/m²</td><td><strong>$36.000M</strong></td></tr></tfoot></table>
+</div>
+
+<div class="sec rv" id="financiero">
+  <div class="sh"><div class="shl"><span class="sn">03</span><span class="st">Prefactibilidad Financiera — Modelo con Datos Reales</span></div><span class="bg rd">Lote $11.000M · Margen comprimido</span></div>
+  <div class="nt rd"><strong>Diagnóstico central:</strong> Con el lote en $11.000M COP, el costo del activo representa el 30.6% de los ingresos totales. Sobre una base edificable de solo 3.066 m² (IC 1.4 CN5), el margen bruto cae al 22.1% y la TIR al ~14% anual — por debajo del umbral mínimo institucional (20–25% TIR). El modelo no es viable en las condiciones actuales.</div>
+  <div class="kp">
+    <div class="kc"><div class="kcl">Valor del lote</div><div class="kcv rd">$11.000M</div><div class="kcn">30.6% de los ingresos</div></div>
+    <div class="kc"><div class="kcl">Ingresos brutos</div><div class="kcv ok">$36.000M</div><div class="kcn">$15.000K/m² · 2.415 m²</div></div>
+    <div class="kc"><div class="kcl">Costo total</div><div class="kcv rd">$28.061M</div><div class="kcn">Todos los componentes</div></div>
+    <div class="kc"><div class="kcl">Margen bruto</div><div class="kcv fl">22.1%</div><div class="kcn">$7.939M utilidad</div></div>
+    <div class="kc"><div class="kcl">TIR estimada</div><div class="kcv rd">~14%</div><div class="kcn">Por debajo umbral CI</div></div>
+    <div class="kc"><div class="kcl">Preventa mín.</div><div class="kcv fl">65%</div><div class="kcn">~17 unidades requeridas</div></div>
+  </div>
+  <div class="wf">
+    <div class="wr hd"><span>Componente</span><span style="text-align:right">COP Millones</span><span style="text-align:right">% ingresos</span></div>
+    <div class="wr"><span class="wl">Ingresos brutos de ventas ($15.000K/m² · 2.415 m²)</span><span class="wa ps">$36.000M</span><span class="wp">100.0%</span></div>
+    <div class="wr hr"><span class="wl">Costo del lote — valor real de mercado</span><span class="wa ng">($11.000M)</span><span class="wp">30.6%</span></div>
+    <div class="wr"><span class="wl">Costos directos de construcción ($3.900K/m² · 3.066 m²)</span><span class="wa ng">($11.957M)</span><span class="wp">33.2%</span></div>
+    <div class="wr"><span class="wl">Costos indirectos — 15% sobre directos</span><span class="wa ng">($1.794M)</span><span class="wp">5.0%</span></div>
+    <div class="wr"><span class="wl">Gerencia de proyecto y ventas — 6% sobre ingresos</span><span class="wa ng">($2.160M)</span><span class="wp">6.0%</span></div>
+    <div class="wr"><span class="wl">Obligaciones urbanísticas y cesiones est.</span><span class="wa ng">($650M)</span><span class="wp">1.8%</span></div>
+    <div class="wr"><span class="wl ww">Afectación vial 12-1990-002 (contingencia)</span><span class="wa ww">($500M)</span><span class="wp">1.4%</span></div>
+    <div class="wr tt"><span class="wl">Utilidad bruta estimada</span><span class="wa">$7.939M</span><span class="wp" style="color:#7dd4cf">22.1%</span></div>
+  </div>
+  <h3 style="font-family:var(--sf);font-size:1.1rem;color:var(--cd);margin-bottom:14px;">Análisis de sensibilidad — precio del lote vs. viabilidad</h3>
+  <table class="tb"><thead><tr><th>Precio lote (COP)</th><th>% sobre ingresos</th><th>Margen bruto</th><th>Utilidad</th><th>TIR est.</th><th>Decisión CI</th></tr></thead><tbody>
+    <tr><td class="k">$7.000M</td><td>19.4%</td><td>33.2%</td><td>$11.939M</td><td>~22%</td><td><span class="pl pok">Viable</span></td></tr>
+    <tr><td class="k">$8.000M</td><td>22.2%</td><td>30.4%</td><td>$10.939M</td><td>~20%</td><td><span class="pl pok">Viable</span></td></tr>
+    <tr><td class="k">$9.000M</td><td>25.0%</td><td>27.6%</td><td>$9.939M</td><td>~18%</td><td><span class="pl pwa">Límite</span></td></tr>
+    <tr><td class="k">$10.000M</td><td>27.8%</td><td>24.8%</td><td>$8.939M</td><td>~16%</td><td><span class="pl pwa">Marginal</span></td></tr>
+    <tr style="background:#fff5f5"><td class="k" style="color:var(--dn);font-weight:700">$11.000M ← ACTUAL</td><td style="color:var(--dn)">30.6%</td><td style="color:var(--dn)">22.1%</td><td style="color:var(--dn)">$7.939M</td><td style="color:var(--dn)">~14%</td><td><span class="pl pno">No viable</span></td></tr>
+    <tr><td class="k">$13.500M</td><td>37.5%</td><td>15.1%</td><td>$5.439M</td><td>~9%</td><td><span class="pl pno">Descartado</span></td></tr>
+  </tbody></table>
+  <div class="nt rd"><strong>Precio máximo para viabilidad CI:</strong> El lote debe adquirirse a máximo $8.000M COP para TIR ~20%. La brecha entre el valor actual ($11.000M) y el umbral ($8.000M) es de $3.000M — una reducción del 27% muy poco probable en el mercado actual de Alejandría.</div>
+</div>
+
+<div class="sec rv" id="mercado">
+  <div class="sh"><div class="shl"><span class="sn">04</span><span class="st">Análisis de Mercado y Absorción</span></div><span class="bg ok">Demanda activa · El Poblado 2025–2026</span></div>
+  <div class="mc">
+    <div class="mk"><div class="mp">Proyecto Alcázares</div><div class="mz">Alejandría · El Poblado</div><div class="mr">$15.200K/m²</div><div class="ms">1.8 unidades/mes · estrato 6</div><div class="mu">Aptos 85–120 m²</div></div>
+    <div class="mk"><div class="mp">Residencias del Parque</div><div class="mz">Manila · El Poblado</div><div class="mr">$14.100K/m²</div><div class="ms">2.1 unidades/mes</div><div class="mu">Aptos 70–100 m² · 28 unidades</div></div>
+    <div class="mk"><div class="mp">Parque Lalinde</div><div class="mz">Lalinde · El Poblado</div><div class="mr">$15.800K/m²</div><div class="ms">1.4 unidades/mes · boutique</div><div class="mu">Aptos 95–140 m²</div></div>
+    <div class="mk"><div class="mp">90 Manila</div><div class="mz">Manila · El Poblado</div><div class="mr">$14.500K/m²</div><div class="ms">2.3 unidades/mes</div><div class="mu">Aptos 80–110 m² · 32 unidades</div></div>
+    <div class="mk hi"><div class="mp">Las Parras — objetivo</div><div class="mz">Alejandría · El Poblado</div><div class="mr">$15.000K/m²</div><div class="ms">~1.5 unidades/mes estimado</div><div class="mu">26 unidades · 90 m² promedio</div></div>
+  </div>
+  <table class="tb"><thead><tr><th>Variable</th><th>Dato</th><th>Evaluación</th></tr></thead><tbody>
+    <tr><td class="k">Precio objetivo/m²</td><td>$15.000.000 COP/m² (promedio sector)</td><td><span class="pl pok">Alineado con mercado</span></td></tr>
+    <tr><td class="k">Absorción estimada</td><td>~1.5 unidades/mes</td><td><span class="pl pok">Consistente con boutiques zona</span></td></tr>
+    <tr><td class="k">Ciclo de preventa</td><td>~18 meses para 26 unidades</td><td><span class="pl pwa">Extendido — escala pequeña</span></td></tr>
+    <tr><td class="k">Perfil comprador</td><td>Ingreso $30M–$50M/mes · uso propio o inversión</td><td><span class="pl pok">Demanda activa</span></td></tr>
+    <tr><td class="k">Precio techo real</td><td>$15.500K–$16.500K/m² en boutiques premium</td><td><span class="pl pwa">Upside limitado por escala</span></td></tr>
+    <tr><td class="k">Diferenciador requerido</td><td>Arquitectura, acabados premium, amenidades</td><td><span class="pl pwa">Necesario para sostener precio</span></td></tr>
+  </tbody></table>
+</div>
+
+<div class="sec rv" id="programa">
+  <div class="sh"><div class="shl"><span class="sn">05</span><span class="st">Programa Arquitectónico y Mix de Producto</span></div><span class="bg">26 unidades máximas por norma</span></div>
+  <div class="pg">
+    <div class="pk"><div class="pt">Vivienda No VIS</div><div class="pv">26</div><div class="pd">Apartamentos 80–115 m² útiles<br>2 y 3 habitaciones · estrato 6<br>2 parqueaderos/unidad + depósito</div><div class="pp">$15.000.000/m² · precio de mercado</div></div>
+    <div class="pk"><div class="pt">Altura estimada</div><div class="pv">7–8</div><div class="pd">Pisos según IC 1.4 e IO 0.60<br>Huella máx. ~1.314 m²<br>~3 aptos típicos por piso</div><div class="pp">Diseño boutique vertical</div></div>
+    <div class="pk"><div class="pt">Áreas comunes</div><div class="pv">380 m²</div><div class="pd">Lobby, terraza social, gimnasio<br>BBQ, seguridad 24h<br>~12.4% del área bruta</div><div class="pp">Amenidades premium estrato 6</div></div>
+    <div class="pk"><div class="pt">Parqueaderos</div><div class="pv">52+</div><div class="pd">2 por unidad + visitas · estrato 6<br>Semisótano requerido<br>Costo adicional est. $2.600M</div><div class="pp">Norma estrato 6 exigente</div></div>
+  </div>
+  <table class="tb"><thead><tr><th>Tipología</th><th>Unidades</th><th>Área útil</th><th>Precio unit.</th><th>Ingreso</th><th>Mix</th></tr></thead><tbody>
+    <tr><td class="k">Tipo A · 2 hab / 2 baños</td><td>10</td><td>80–85 m²</td><td>$1.238M</td><td style="color:var(--cd);font-weight:600">$12.375M</td><td>38%</td></tr>
+    <tr><td class="k">Tipo B · 3 hab / 2 baños</td><td>12</td><td>95–105 m²</td><td>$1.500M</td><td style="color:var(--cd);font-weight:600">$18.000M</td><td>46%</td></tr>
+    <tr><td class="k">Tipo C · 3 hab / 3 baños premium</td><td>4</td><td>108–115 m²</td><td>$1.672M</td><td style="color:var(--cd);font-weight:600">$6.690M</td><td>16%</td></tr>
+  </tbody><tfoot><tr><td class="k">Total</td><td>26 unidades</td><td>~90 m² prom.</td><td>$1.462M prom.</td><td><strong>$37.065M</strong></td><td>100%</td></tr></tfoot></table>
+</div>
+
+<div class="sec rv" id="afectaciones">
+  <div class="sh"><div class="shl"><span class="sn">06</span><span class="st">Afectaciones, Restricciones y Riesgos</span></div><span class="bg wa">2 factores críticos sin resolver</span></div>
+  <div class="al">
+    <div class="ai d"><div><div class="at">▲ Proyecto vial 12-1990-002 — Loma Las Parras · Estado: no cuantificado</div><div class="ad">Existe un proyecto vial activo de ampliación sobre la vía arteria colindante. Antes de cualquier oferta se debe consultar al DAP para determinar el área exacta afectada y las obligaciones de cesión. Esta afectación puede reducir el área neta edificable y comprometer los índices financieros proyectados.</div></div></div>
+    <div class="ai d"><div><div class="at">▲ IC 1.4 sin derechos adicionales — escala fija e inamovible</div><div class="ad">El polígono Z5_CN5_18 no permite incrementar el aprovechamiento. El proyecto queda limitado a 3.066 m² brutos y 26 unidades. No existe ruta normativa alternativa en el POT vigente.</div></div></div>
+    <div class="ai w"><div><div class="at">— Normas volumétricas y frentes mínimos — consulta pendiente ante Curaduria</div><div class="ad">El reporte remite a "Ver Reporte". Debe confirmarse ante Curaduria si el frente del lote cumple los requisitos para el proyecto propuesto.</div></div></div>
+    <div class="ai w"><div><div class="at">— Instrumento Suroriental — revisión pendiente</div><div class="ad">La formulación puede contener normas que complementen o modifiquen el Acuerdo 48/2014 para este polígono. Revisión obligatoria antes de cierre.</div></div></div>
+    <div class="ai w"><div><div class="at">— Parqueaderos estrato 6 — impacto en costos de construcción</div><div class="ad">La exigencia de 2–2.5 parqueaderos por unidad más visitas obliga a semisótano. Costo adicional estimado $2.400M–$3.200M sobre presupuesto base.</div></div></div>
+    <div class="ai i"><div><div class="at">○ Amenaza por movimientos en masa: Baja en 100% del predio — Favorable</div><div class="ad">Condición confirmada en reporte DAP. Sin restricciones de riesgo por esta causa. Se mantiene estudio geotécnico estándar previo a licencia dado que el lote está en ladera.</div></div></div>
+  </div>
+</div>
+
+<div class="sec rv" id="recomendacion">
+  <div class="sh"><div class="shl"><span class="sn">07</span><span class="st">Recomendación de Producto y Estrategia</span></div><span class="bg">Uso exclusivo comité de inversión</span></div>
+  <div class="rg">
+    <div class="rk"><div class="rt">Tipo de producto recomendado</div><ul class="rl"><li>Residencial No VIS boutique — 26 unidades máximas por norma</li><li>Apartamentos 80–115 m², 2 y 3 habitaciones, estrato 6</li><li>Arquitectura de calidad como palanca de precio/m²</li><li>Sin componente comercial relevante — baja mixtura CN5</li><li>Perfil: comprador patrimonial / familia / segunda vivienda</li></ul></div>
+    <div class="rk"><div class="rt">Configuración arquitectónica</div><ul class="rl"><li>7–8 pisos · ~3 aptos por piso · diseño boutique</li><li>Amenidades premium: terraza, gimnasio, lobby representativo</li><li>Semisótano para parqueaderos — mínimo 2 por unidad</li><li>Certificación EDGE como valor diferenciador</li><li>Estudio geotécnico antes de anteproyecto — ladera activa</li></ul></div>
+    <div class="rk"><div class="rt">Estrategia comercial</div><ul class="rl"><li>Precio objetivo $15.000K–$16.000K/m² según tipología y acabados</li><li>Preventa mínima 65% para inicio de obra (~17 unidades)</li><li>Velocidad esperada 1.5 unidades/mes · ciclo 18–20 meses</li><li>Canal: brokers especializados El Poblado + base propia</li><li>Sala de ventas física + branding del proyecto</li></ul></div>
+    <div class="rk"><div class="rt">Acciones obligatorias antes de cualquier oferta</div><ul class="rl"><li>Negociar lote a precio máximo $8.000M COP — condición sine qua non</li><li>Consulta DAP: cuantificar afectación vial 12-1990-002</li><li>Consulta Curaduria: frentes mínimos y normas volumétricas</li><li>Revisión instrumento Suroriental: formulación completa</li><li>Estudio geotécnico preliminar — lote en ladera activa</li></ul></div>
+  </div>
+</div>
+
+</div>
+
+<div class="vrd" id="veredicto">
+  <div class="vi">
+    <div class="vlr">
+      <div class="vlb"><img src="logo.jpg" alt="Capital Integral Investments"></div>
+      <div class="vdt">Ref. CI-2026-LP-001 · Confidencial<br>Comité de Inversión · Marzo 2026<br>Capital Integral Investments</div>
+    </div>
+    <div class="vo">Clasificación final · Capital Integral Investments</div>
+    <div class="va">Lote Loma Las Parras · Alejandría, El Poblado · Medellín</div>
+    <div class="vv">🔴 No viable en condiciones actuales</div>
+    <p class="vb">El activo está en una de las zonas más valoradas de Medellín, con demanda sólida y precio/m² de mercado de $15.000K. Sin embargo, el tratamiento CN5 con IC 1.4 limita el proyecto a 26 unidades, y el valor del lote de $11.000M COP comprime el margen al 22.1% con TIR ~14% — insuficiente para un desarrollador institucional. La viabilidad requiere una reducción del precio del lote del 27%.</p>
+    <div class="vm">
+      <div class="vc rd"><div class="vcl">Financiero</div><div class="vcv">No viable</div><div class="vcs">TIR ~14% · Margen 22.1%</div></div>
+      <div class="vc am"><div class="vcl">Técnico / Urbanístico</div><div class="vcv">Condicional</div><div class="vcs">IC 1.4 + proyecto vial</div></div>
+      <div class="vc am"><div class="vcl">Jurídico / Normativo</div><div class="vcv">Verificar</div><div class="vcs">Afectación vial + curaduria</div></div>
+      <div class="vc gr"><div class="vcl">Mercado</div><div class="vcv">Favorable</div><div class="vcs">Demanda activa El Poblado</div></div>
+    </div>
+    <div class="vco">
+      <div class="vct">Condiciones para reconsiderar la decisión</div>
+      <ul class="vcl2">
+        <li data-n="01.">Negociar el lote a precio máximo de $8.000M COP — sin esta condición el proyecto no es viable para CI.</li>
+        <li data-n="02.">Consultar DAP y cuantificar el área afectada por el proyecto vial 12-1990-002 antes de cualquier oferta formal.</li>
+        <li data-n="03.">Consultar Curaduria Urbana: confirmar frentes mínimos y normas volumétricas específicas para CN5.</li>
+        <li data-n="04.">Revisar el instrumento de planificación complementaria Suroriental en su formulación completa.</li>
+        <li data-n="05.">Estudio geotécnico preliminar antes de licencia — lote en ladera activa (Loma Las Parras).</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="ct">
+  <div class="ctn">
+    <div class="ctl">
+      <div class="co2">Contacto directo</div>
+      <div class="cn2">Juan Pablo Arboleda</div>
+      <div class="cr2">Gerencia · Capital Integral Investments</div>
+    </div>
+    <div class="cdv"></div>
+    <div class="ctg">
+      <a href="tel:+573217397055" class="ci2">
+        <div class="cic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.02 1.18 2 2 0 012 .02h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+        <div><div class="clbl">Celular</div><div class="cval">+57 321 739 7055</div></div>
+      </a>
+      <a href="https://wa.me/message/S7CVBBJIBALGO1" target="_blank" class="ci2 ciw">
+        <div class="cic wa"><svg width="20" height="20" viewBox="0 0 32 32" fill="currentColor"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.833.74 5.494 2.035 7.8L.07 31.07a1 1 0 001.212 1.212l7.27-1.965A15.938 15.938 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 01-6.77-1.848l-.486-.293-5.03 1.358 1.358-4.907-.32-.51A13.267 13.267 0 012.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.27-9.874c-.4-.2-2.364-1.166-2.73-1.3-.367-.133-.634-.2-.9.2-.267.4-1.033 1.3-1.267 1.567-.233.267-.467.3-.867.1-.4-.2-1.687-.622-3.213-1.982-1.187-1.059-1.988-2.367-2.221-2.767-.234-.4-.025-.616.175-.815.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.167-1.233-2.967-.325-.78-.655-.674-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.82 4.307 6.833 6.04.955.412 1.7.659 2.281.843.958.305 1.83.262 2.519.159.768-.114 2.364-.967 2.697-1.9.333-.934.333-1.734.233-1.9-.1-.167-.367-.267-.767-.467z"/></svg></div>
+        <div><div class="clbl">WhatsApp</div><div class="cval">Escribir por WhatsApp →</div></div>
+      </a>
+      <a href="mailto:gerencia@capitalintegral.co" class="ci2">
+        <div class="cic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div><div class="clbl">Correo</div><div class="cval">gerencia@capitalintegral.co</div></div>
+      </a>
+      <div class="ci2 nl">
+        <div class="cic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div><div class="clbl">Dirección</div><div class="cval">Cra. 43 #9 Sur 195 · Of. 0935<br>Torre Empresarial Square – Inexmoda<br>Medellín · El Poblado</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="fl"><img src="logo.jpg" alt="Capital Integral Investments"></div>
+  <div class="fn">CBML 14160110126 · Barrio Alejandría, El Poblado, Medellín · Polígono Z5_CN5_18<br>Basado en POT Acuerdo 48 de 2014 · Reporte MapGIS DAP Medellín · 19 de marzo de 2026<br>Ref. CI-2026-LP-001 · Memorando confidencial de prefactibilidad · No reemplaza consulta ante Curaduria Urbana</div>
+</footer>
+
+<script>
+const nav=document.getElementById("nav");
+window.addEventListener("scroll",()=>{nav.classList.toggle("v",window.scrollY>window.innerHeight*.4)});
+const ro=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");ro.unobserve(x.target)}})},{threshold:.06,rootMargin:"0px 0px -16px 0px"});
+document.querySelectorAll(".rv").forEach(r=>ro.observe(r));
+document.querySelectorAll(".bc").forEach(c=>c.querySelectorAll(".bf").forEach(b=>b.style.width="0"));
+const bo=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){setTimeout(()=>x.target.querySelectorAll(".bf").forEach(b=>{b.style.width=(b.dataset.w||0)+"%"}),80);bo.unobserve(x.target)}})},{threshold:.2});
+document.querySelectorAll(".bc").forEach(c=>bo.observe(c));
+document.addEventListener("DOMContentLoaded",()=>{[".ctb",".cov",".ctt",".csb",".cgr",".cvr"].forEach((s,i)=>{const el=document.querySelector(s);if(!el)return;el.style.cssText=`opacity:0;transform:translateY(10px);transition:opacity .55s ease ${i*.09}s,transform .55s ease ${i*.09}s`;setTimeout(()=>{el.style.opacity="1";el.style.transform="none"},50+i*90)})});
+</script>
+</body>
+</html>
